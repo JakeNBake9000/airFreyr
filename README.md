@@ -76,3 +76,6 @@ I'm putting most of my efforts into making a GUI interface right now, and sepera
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/) !!! Again, please make sure you are using this software for a legitimate use and that you own all music being downloaded.
+
+## Regards,
+## Jacob L. Prescott
