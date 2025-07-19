@@ -55,11 +55,23 @@ username@computer SOURCE_FOLDER % java -cp .:gson-2.10.1.jar AirFreyr.java "APPL
 
 First off, I am in no way a programmer. I'm a groundskeeper who wanted to use his old iPod again. This is the product of a couple of weekends spent on StackOverflow to try to stick something together with tape and glue to download music that I have on CD, but I no longer have a CD drive to rip.
 
-Feel free to make any changes you'd like! I've found that the search algorithm is unreliable in certain edge cases and tends to give music videos more often than it will give audio-only tracks. I am currently working on this. 
+Feel free to make any changes you'd like! I've found that the search algorithm is unreliable in certain edge cases and tends to give music videos more often than it will give audio-only tracks. For usability, that's probably the biggest issue, but I've gotten a little tired of editing the current scoring system over and over again, so I'm moving on to different tasks for now (see below).
 
 I did optimize this code with Claude Sonnet 4 after I got the first version working. The Sonnet-enhanced version (this repository) contains a much cleaner code and is easier for beginners to make their own changes to (Not that it would be any different for a more seasoned programmer to read or edit). If that's not your style and you prefer to see what I scrawled out in my IDE with very minimal documentation and less readability, go ahead. That repository is available at [zogdog9000/airFreyrClassic](https://lolwut.com) and WILL NOT be maintained. 
 
 Thanks for taking the time to check out a lil' project by a crazy midwesterner. I hope you'll love breathing new life into your iPods like I did! Props to [miraclx for freyr-js, the inspiration / cause for this project!](https://github.com/miraclx/freyr-js)
+
+## Future Plans
+
+I'm leaving for college in about a month, so in the meantime I plan to make this project 99% of what I want it to be. My top 5 tasks are listed below in no particular order if you're interested in taking a peek!
+
+1. Queue Albums
+2. GUI Interface
+3. Better Search Results
+4. Support for Spotify + Deezer + others
+5. Remove YouTube Data API
+
+I'm putting most of my efforts into making a GUI interface right now, and seperating into airFreyr CORE (the current project) and gooeyFreyr, which will basically act as a layer between the user and CORE and make implementing features such as album queuing and other service support easier. After that, I'll move on to more difficultt stuff like better search results and API changes. (APIs are a beast in it of themselves! I was stumped for days!)
 
 ## License
 
